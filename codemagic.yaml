@@ -6,4 +6,4 @@ workflows:
         vars:
           PACKAGE_NAME: "com.bellsfood"
           artifacts:
-  app/build/outputs/**/*.apk
+  - app/build/outputs/**/*.apk
