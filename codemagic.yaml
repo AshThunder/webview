@@ -22,5 +22,5 @@ workflows:
           source: true
       cancel_previous_builds: false
     artifacts:
-      - build/**/outputs/bundle/**/*.aab
+      - build/**/outputs/bundle/**/*.apk
   
