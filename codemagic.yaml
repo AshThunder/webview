@@ -22,7 +22,7 @@ workflows:
           source: true
       cancel_previous_builds: false
     scripts:
-      ./gradlew assembleRelease # -> to create the .apk
+     - ./gradlew assembleRelease # -> to create the .apk
     artifacts:
       - build/**/outputs/bundle/**/*.aab
   
