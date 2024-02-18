@@ -21,7 +21,7 @@ workflows:
           include: true
           source: true
       cancel_previous_builds: false
-    script: | 
+    scripts: | 
       ./gradlew assembleRelease # -> to create the .apk
     artifacts:
       - build/**/outputs/bundle/**/*.aab
